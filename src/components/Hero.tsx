@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import { Code } from "lucide-react";
 import heroImage from "@/assets/hero-coding.jpg";
 import type { FC } from "react";
-
 const Hero: FC = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
