@@ -37,15 +37,6 @@ const Navigation = () => {
             ))}
           </div>
 
-          {/* Desktop CTA */}
-          <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
-              Progress
-            </Button>
-            <Button variant="default" size="sm">
-              Get Started
-            </Button>
-          </div>
 
           {/* Mobile menu button */}
           <button
@@ -70,14 +61,6 @@ const Navigation = () => {
                   {item.name}
                 </a>
               ))}
-              <div className="flex flex-col space-y-2 pt-4 border-t border-border">
-                <Button variant="ghost" size="sm">
-                  Progress
-                </Button>
-                <Button variant="default" size="sm">
-                  Get Started
-                </Button>
-              </div>
             </div>
           </div>
         )}
