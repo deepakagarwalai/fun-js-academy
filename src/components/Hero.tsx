@@ -32,21 +32,9 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed max-w-3xl mx-auto">
-            Interactive lessons designed for BCA students. Learn arithmetic operators, 
+            Interactive lessons to Learn arithmetic operators, 
             conditional statements, loops, and functions through hands-on coding examples.
           </p>
-          
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button variant="hero" size="lg" className="text-lg px-8 py-4">
-              <Play className="w-5 h-5 mr-2" />
-              Start Learning
-            </Button>
-            
-            <Button variant="outline" size="lg" className="text-lg px-8 py-4 border-white/30 text-white hover:bg-white/10">
-              <BookOpen className="w-5 h-5 mr-2" />
-              View Curriculum
-            </Button>
-          </div>
           
           {/* Stats */}
           <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 max-w-2xl mx-auto">
