@@ -70,25 +70,7 @@ const LearningSection = ({
             </Card>
           ))}
         </div>
-
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <Button variant="tryCode" size="lg" className="text-lg px-8 py-4">
-            <Play className="w-5 h-5 mr-2" />
-            Try Interactive Code
-          </Button>
-          
-          <Button variant="quiz" size="lg" className="text-lg px-8 py-4">
-            <Brain className="w-5 h-5 mr-2" />
-            Take Quiz
-          </Button>
-          
-          <Button variant="nextLesson" size="lg" className="text-lg px-8 py-4">
-            Next Lesson
-            <ArrowRight className="w-5 h-5 ml-2" />
-          </Button>
-        </div>
-
+        
         {/* Progress Indicator */}
         <div className="mt-12 text-center">
           <div className="inline-flex items-center space-x-2 bg-card px-4 py-2 rounded-full border border-border">
