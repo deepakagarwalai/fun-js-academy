@@ -46,14 +46,6 @@ const Hero = () => {
               <div className="text-3xl font-bold text-white mb-2">20+</div>
               <div className="text-white/70 text-sm">Code Examples</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">10+</div>
-              <div className="text-white/70 text-sm">Interactive Quizzes</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">100%</div>
-              <div className="text-white/70 text-sm">Hands-on Learning</div>
-            </div>
           </div>
         </div>
       </div>
